@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seputar Teknologi</title>
+    <style>
+        *, html, body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+            padding: 10px;
+            position: absolute;
+            z-index: 2;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 90px;
+        }
+       .menu li {
+            list-style-type: none;
+            padding: 30px;
+            font-size: 20px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            transition: ease-in 3s;
+        }
+
+        .brand {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .brand img {
+            width: 35px;
+            margin-left: 60px;
+        }
+
+        .brand h3 {
+            color:#7570EE;
+            margin-top: 3px;
+            margin-left: 10px;
+            font-size: 30px;
+        }
+       
+        #overlay-gambar {
+            position: relative;
+        }
+
+        .gambar-header img {
+            float: right;
+            width: 55%;
+         }
+
+        .gambar-content img {
+            box-sizing: border-box;
+            top: 153px;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            margin-left: 40%;
+            width: 50%;          
+        }
+
+        .content {
+            position: relative;
+            top: 200px;
+            margin-left: 70px;
+        }
+        .content h3 {
+            color: #F7B506;
+            font-size: 40px;
+        }
+
+        .content h1 {
+            color: #7570EE;
+            font-size: 70px;
+        }
+
+        .content p {
+            color: #7570EE;
+            text-align: justify;
+            margin-right: 62%;
+            margin-top: 10px;
+        }
+
+        .judul-content {
+            text-align: center;
+            color:#7570EE;
+        }
+        .learning-path {
+            color:#7570EE;
+            font-size: bold;
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            justify-content: center;
+            align-items: center;
+            margin: 30px;
+            grid-gap: 30px;
+            text-align: center;
+        }
+
+        .learning-path img {
+            object-fit: cover;
+            width: 280px;
+            height: 280px;
+            border-radius: 40px;
+        }
+
+        .learning-path h2 {
+            font-size: 20px;
+            padding: 15px;
+        }
+
+        .link-quotes {
+            background-color:#4F4BB9;
+            color: white;
+            text-align: center;
+            padding: 240px;
+        }
+
+        .link-quotes p {
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .news {
+            margin-top: 70px;
+            margin-bottom: 350px;
+        }
+
+        .news h1 {
+            color:#7570EE;
+            margin: 50px;
+        }
+
+        .berita1 img {
+            width: 500px;
+            border-radius: 15px;
+            margin: 50px;
+            margin-top: -30px;
+        }
+
+        .news p {
+            color:#7570EE;
+            margin-left: 620px;
+            margin-right: 70px;
+            justify-content: space-around;
+            text-align: justify;
+            font-size: 20px;
+            margin-top: -220px;
+        }
+
+        .informasi_website {
+            display: flex;
+            background-color: #4F4BB9;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+            padding: 30px;
+        }
+
+        .informasi_website p {
+            color: white;
+            text-align: justify;
+            margin-top: 80px;
+            margin-right: 70%;
+            font-size: 15px;
+        }
+        
+        #bawah_footer img {
+            width: 30px;
+            padding-top: 30px;
+            padding-left: 70px;
+        }
+        
+        .informasi_website h3 {
+            color: white;
+            padding-top: 30px;
+            padding-left: 10px;
+        }
+
+        .copyright {
+            text-align: center;
+            color: #4F4BB9;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <img src="./Seputar Teknologi_files/logo.png" alt="">
+            <h3 id="opening">Seputar Teknologi</h3>
+        </div>
+        <ul class="menu">
+            <li><a href="http://127.0.0.1:5500/index.html#opening">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#informasi">News</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#tampilan_konten">Learning Path</a></li>
+            <li><a href="http://127.0.0.1:5500/tentang_kami">About</a></li>
+        </ul>    
+        </nav>
+          
+    <div id="overlay-gambar">
+        <div class="gambar-header">
+            <img src="./Seputar Teknologi_files/vector-header.png" alt="desain header">
+        </div>
+        <div class="gambar-content">
+            <img src="./Seputar Teknologi_files/gambar_utama.png" alt="">
+        </div>
+    </div>
+    <br><br><br>
+    <div class="content">
+        <h3>#CodeIsMyLife</h3>
+        <h1>Your Dream</h1>
+        <h1>Start Now</h1>
+        <p>Seputar Teknologi merupakan sebuah platform pembelajaran yang menyediakan
+            informasi teknologi dalam dunia Informatika.
+        </p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="judul-content">
+        <h1 id="tampilan_konten">Learning Path</h1>
+    </div>
+    <br><br><br>
+    <div class="learning-path">
+        <article>
+            <div class="konten">
+                <img src="./Seputar Teknologi_files/1.jpg" alt="">
+                <h2>Sistem Digital</h2>
+            </div>
+        </article>
+        <article>
+            <div class="konten">
+                <img src="./Seputar Teknologi_files/2.png" alt="">
+                <h2>Algoritma &amp; Pemrograman Dasar</h2>
+            </div>
+        </article>
+        <article>
+            <div class="konten">
+                <img src="./Seputar Teknologi_files/3.jpg" alt="">
+                <h2>Algoritma &amp; Struktur Data</h2>
+            </div>
+        </article>
+        <article>
+            <div class="konten">
+                <img src="./Seputar Teknologi_files/4.jpg" alt="">
+                <h2>Basis Data</h2>
+            </div>
+        </article>
+        <article>
+            <div class="konten">
+                <img src="./Seputar Teknologi_files/5.jpg" alt="">
+                <h2>Sistem Operasi</h2>
+            </div>
+        </article>
+        <article>
+            <div class="konten">
+                <img src="./Seputar Teknologi_files/6.jpg" alt="">
+                <h2>Pemrograman Berbasis Web</h2>
+            </div>
+        </article>
+        <article>
+            <div class="konten">
+                <img src="./Seputar Teknologi_files/7.png" alt="">
+                <h2>Pemrograman Berorientasi Objek</h2>
+            </div>
+        </article>
+        <article>
+            <div class="konten">
+                <img src="./Seputar Teknologi_files/8.png" alt="">
+                <h2>Sistem Informasi</h2>
+            </div>
+        </article>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="link-quotes">
+        <h1>Tunggu Apa Lagi?</h1>
+        <p>Mulailah belajar dari sekarang, sebelum masa mudamu habis</p>
+    </div>
+    <div class="news">
+        <h1 id="informasi">Berita Seputar Teknologi</h1>
+        <div class="berita1">
+            <img src="./Seputar Teknologi_files/berita_ngoding.jpg" alt="">
+        </div>
+        <p>Teknologi Informasi adalah untuk memecahkan suatu masalah, 
+            membuka kreativitas, meningkatkan efektivitas dan efisiensi dalam melakukan pekerjaan. 
+            Jadi dapat dikatakan karena dibutuhkannya pemecahan masalah, membuka kreativitas dan efisiensi manusia dalam melakukan pekerjaan, 
+            menjadi penyebab atau acuan diciptakannya teknologi informasi. Dengan adanya teknologi informasi membuat pekerjaan manusia menjadi lebih mudah dan efisien. 
+            Dengan kata lain, karena sangat solusi, kreativitas, efektivitas dan efisiensi dibutuhkan dalam sebuah sistem kerja maka teknologi informasi ini kemudian diciptakan.
+        </p>
+        <p>
+            kamu harus bisa melakukan coding yang merupakan menerjemahkan persyaratan logika dari pseudocode (diagram alur) ke dalam suatu bahasa pemrograman, baik huruf, angka, atau simbol yang membentuk sebuah program berupa web atau aplikasi. Istilah coding yaitu menerjemahkan ide yang kita miliki menjadi sebuah perintah komputer dan komputer akan melakukan apa yang kita inginkan. 
+            Berikut beberapa manfaat yang akan kamu dapatkan dengan belajar coding.
+        </p>
+    </div>
+    <footer class="informasi_website">
+        <div id="bawah_footer">
+            <img src="./Seputar Teknologi_files/logo.png" alt="">
+        </div>
+        <h3>Seputar Teknologi</h3>
+        <p>Seputar Teknologi merupakan sebuah platform pembelajaran yang menyediakan
+            informasi teknologi dalam dunia Informatika.
+        </p>
+    </footer>
+    <div class="copyright">
+        <p>copyright 2022 | Karya Mahasiswa Universitas Muhammadiyah Sidoarjo</p>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
